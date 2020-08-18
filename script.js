@@ -65,11 +65,10 @@ searchForm.addEventListener("submit", search);
 let tempElement = document.querySelector("#temperature");
 tempElement.innerHTML = "33";
 
-/*Bonus
+//Bonus
 let cityElement = document.querySelector("#city");
-  let cityInput = document.querySelector("#city-input");
-  cityElement.innerHTML = cityInput.value;
-
+let cityInput = document.querySelector("#city-input");
+cityElement.innerHTML = cityInput.value;
 
 function convertToFahrenheit(event) {
   event.preventDefault();
@@ -87,4 +86,4 @@ let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", convertToFahrenheit);
 
 let celsiusLink = document.querySelector("#celsius-link");
-celsiusLink.addEventListener("click", convertToCelsius); */
+celsiusLink.addEventListener("click", convertToCelsius);
