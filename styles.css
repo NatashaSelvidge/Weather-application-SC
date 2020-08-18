@@ -1,0 +1,62 @@
+h1 {
+  color: #0069d9;
+  padding-left: 50px;
+  font-weight: 900;
+  font-family: "Lucida Sans";
+}
+h2 {
+  padding-left: 50px;
+  font-family: "Lucida Sans";
+}
+button {
+  background-color: #0069d9;
+  color: white;
+}
+
+.border {
+  color: #0069d9;
+  font-weight: bold;
+}
+.date {
+  padding-right: 50px;
+}
+#celsius-link,
+#fahrenheit-link {
+  font-size: 30px;
+  position: relative;
+  bottom: 15px;
+  font-weight: 900;
+}
+#search-form {
+  position: relative;
+  left: -110px;
+  top: 45px;
+}
+#sky {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    -225deg,
+    #5d9fff 0%,
+    #b8dcff 48%,
+    #6bbbff 100%
+  );
+}
+#temperature {
+  font-size: 40px;
+}
+#Layer_1 {
+  padding-left: -100px;
+
+  width: 400px;
+  height: 200px;
+}
+
+#mygit {
+  padding-left: 320px;
+  font-family: fantasy;
+  color: black;
+  font-size: 18px;
+}
